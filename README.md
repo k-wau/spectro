@@ -1,16 +1,15 @@
-# Spectro
+# spectro
 
-A real-time audio visualizer that displays system audio output with a dynamic waveform and frequency-based color transitions.
+real-time audio visualizer that displays system audio output with frequency-dependent colour coding.
 
-## Features
+## features
 
-- Real-time audio visualization of system output
-- Dynamic waveform display with automatic height normalization
-- Frequency-based color transitions
-- Borderless window design
-- Adjustable visualization parameters
+- real-time audio visualization of system output
+- dynamic waveform display with automatic height normalization
+- frequency-based color transitions
+- invert colours support
 
-## Dependencies
+## dependencies
 
 - SFML 2.6+
 - PulseAudio
@@ -18,7 +17,7 @@ A real-time audio visualizer that displays system audio output with a dynamic wa
 - CMake 3.0+
 - C++11 compatible compiler
 
-## Building
+## building
 
 ```bash
 mkdir build
@@ -27,21 +26,11 @@ cmake ..
 make
 ```
 
-## Controls
+## controls
 
-- `ESC`: Close the application
-- `C`: Toggle between colored background and colored waveform
-- `Left/Right Arrow`: Adjust waveform length
-- `Up/Down Arrow`: Adjust window height
-
-## Performance
-
-The visualizer is optimized for performance with:
-- Efficient audio capture using PulseAudio
-- Optimized FFT calculations using FFTW3
-- Smart buffer management
-- Reduced color update frequency
-- Efficient vertex array handling
+- `ESC`: close the application
+- `C`: toggle between colored background and colored waveform
+- `Up/Down Arrow`: adjust window height
 
 ## License
 
