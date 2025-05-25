@@ -32,6 +32,6 @@ make
 - `C`: toggle between colored background and colored waveform
 - `Up/Down Arrow`: adjust window height
 
-## License
+## license
 
 MIT License - See LICENSE file for details 
